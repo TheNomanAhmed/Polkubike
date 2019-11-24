@@ -1,0 +1,308 @@
+
+@media  screen and (max-width:600px)
+{
+ p{
+ 	color:green ;
+ 	background-color: yellow;
+ 	font-size: 1.2em;
+ }
+ 
+ nav ul
+ {
+background-color: lime;
+ }
+
+} 
+
+
+
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight:bold;
+    font-style: italic;
+
+}
+
+
+#h22{
+
+  color: green;
+}
+#faq{
+  color: #00F0FD ;
+}
+
+
+fieldset{
+  background-color: white;
+  opacity: 0.9;
+  color: black;
+}
+
+body{
+      
+
+    background-size: cover;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: white ;
+    opacity: 1;
+    font-style: italic;
+    font-size: 100%;
+    font-weight: bold;
+
+
+
+}
+img{
+  border-radius: 50px;
+  opacity: 1;
+}
+
+img:hover{
+  background-color: yellow;
+}
+
+
+#bloc_page
+{
+    width: 100%;
+    margin: auto;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+
+#logo img
+{
+    width: 100px;
+    height: 100px;
+}
+
+ h1
+{
+    
+    width: 50%;
+     font-family:  Eatn cake;
+     font-style: italic;
+     color:#f4511e ;
+     text-align: center;
+     font-size: 40px;
+     
+
+
+
+}
+
+
+.description{
+
+  color:white;
+  text-align: center;
+  font-weight: bold;
+  font-size:1em;
+  font-style:italic; 
+  font-family:sans-serif; 
+}
+
+.nav2{
+
+color:#01042D;
+}
+
+ol{
+  color: #01042D;
+  font-size: 20px;
+}
+
+li{
+	list-style: none;
+	float: right;
+	text-align: center;
+	font-weight: bolder;
+
+	color: white;
+ -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin-left: 2em;
+  font-weight: bolder;
+  font-size: 1.5em;
+ 
+
+
+}
+#P{
+     line-height: 30px;
+     display: flex;
+     color: rgb(0, 0, 0);
+     font-weight: bolder;
+     margin: 50px auto;
+     width: 70%;
+     text-align: center;
+
+}
+
+.slogan{
+
+  
+   font-size: 50px;
+  text-align: center;
+  color: #a50303;
+  padding: 0 10%;
+  
+}
+
+figcaption{
+  display: flex;
+}
+#Partners{
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+
+p{
+  color: #01042D;
+  font-size: 20px;
+  padding: 10px;
+}
+a:hover{
+	background-color: white;
+	color:orange;
+}
+a:link{
+	color: #01042D;
+}
+a:visited{
+	color:#01042D;
+}
+
+
+
+h1{color:#01042D;}
+
+table, th, td {
+
+  color: green;
+  text-align: center;
+  font-family: Comic Sans MS;
+  font-style:  italic;
+  font-size: 1em;
+  }
+
+
+
+form{
+   
+   color: black;
+  
+}
+#pbook{
+
+	color: orange;
+}
+input{
+  color:lime;
+  background-color:black;
+  border-radius:10px;
+  font-size:30px;
+   width: 30%;
+   opacity: 0.5;
+   
+}
+
+
+button{
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.fieldparnter{
+
+background-color: gray;
+
+}
+
+.container{
+  padding: 5% 10%;
+}
+
+
+footer{
+
+  border: 1px solid black;
+  border-radius: 2px;
+}
